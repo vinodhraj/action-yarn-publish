@@ -11,7 +11,7 @@ inputs:
     description: 'A semver string of the versions to skip publishing of (see https://npm.im/semver for syntax).'
   git-tag:
     description: 'Whether to also tag the current commit with the version.'
-    default: 'false'
+    default: 'true'
   git-tag-format:
     description: 'The format the git tag should use ({version} is replaced by the package.json version).'
     default: 'v{version}'
